@@ -27,8 +27,10 @@
  [0.77765192 0.55528108]]
 ```
 * 输出：
-![avatar](./imgs/路线.png)
-![avatar](./imgs/适应度.png)
+
+    ![avatar](./imgs/路线.png)
+
+    ![avatar](./imgs/适应度.png)
 ## 代码结构
 ```
 config.py：各参数配置
