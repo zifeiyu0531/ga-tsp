@@ -24,6 +24,7 @@ city_pos_list = np.random.rand(config.city_num, config.pos_dimension)
 city_dist_mat = build_dist_mat(city_pos_list)
 
 print(city_pos_list)
+print(city_dist_mat)
 
 # 遗传算法运行
 ga = Ga(city_dist_mat)

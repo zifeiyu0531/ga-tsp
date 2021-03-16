@@ -13,10 +13,10 @@ def add_argument_group(name):
 
 # Data
 data_arg = add_argument_group('Data')
-data_arg.add_argument('--city_num', type=int, default=20, help='city num')  # 城市数量
+data_arg.add_argument('--city_num', type=int, default=15, help='city num')  # 城市数量
 data_arg.add_argument('--pos_dimension', type=int, default=2, help='city num')  # 坐标维度
-data_arg.add_argument('--individual_num', type=int, default=50, help='individual num')  # 个体数
-data_arg.add_argument('--gen_num', type=int, default=300, help='generation num')  # 迭代轮数
+data_arg.add_argument('--individual_num', type=int, default=60, help='individual num')  # 个体数
+data_arg.add_argument('--gen_num', type=int, default=400, help='generation num')  # 迭代轮数
 data_arg.add_argument('--mutate_prob', type=float, default=0.25, help='probability of mutate')  # 变异概率
 
 
