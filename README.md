@@ -1,6 +1,6 @@
 # 遗传算法解决旅行商（TSP）问题
 ## 视频地址
-
+<https://www.bilibili.com/video/BV17Z4y1w7qF>
 ## 效果
 * 输入：
 ```python
