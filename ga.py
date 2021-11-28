@@ -132,7 +132,7 @@ class Ga:
         for i in range(gen_num):
             self.next_gen()
             # 连接首尾
-            result = self.best.genes
+            result = copy_list(self.best.genes)
             result.append(result[0])
             self.result_list.append(result)
             self.fitness_list.append(self.best.fitness)
