@@ -32,4 +32,4 @@ def print_config():
     print('* city num:', config.city_num)
     print('* individual num:', config.individual_num)
     print('* generation num:', config.gen_num)
-    print('* probability of mutate:', config.cross_prob)
+    print('* probability of mutate:', config.mutate_prob)
